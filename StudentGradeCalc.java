@@ -1,14 +1,17 @@
+///////////////////////////////////////////////////////////////////////////
 // Bruce Gjorgjievski
-//StudentGradeCalc.java
-//Edits a text file and calculates my students' grade averages for me
-//Uses Java AWT graphical windowing framework
+// StudentGradeCalc.java
+//
+// Uses a text file and calculates my students' grade averages for me
+// Uses Java AWT graphical windowing framework
+///////////////////////////////////////////////////////////////////////////
 
 import java.io.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 
-class Roster extends Frame 
+class StudentGradeCalc extends Frame 
     implements ActionListener, WindowListener {
 
     private Button calcButton;
@@ -18,7 +21,7 @@ class Roster extends Frame
     private MenuItem loadItem, saveItem, exitItem, aboutItem;
 
     public static void main(String [] args) {
-        Roster r = new Roster();
+        StudentGradeCalc r = new StudentGradeCalc();
         r.setSize(700,500);
         r.buildGUI();
         r.setVisible(true);
@@ -29,7 +32,7 @@ class Roster extends Frame
 	MenuBar menuBar = new MenuBar();
 	Menu fileMenu, helpMenu;
 	
-	setTitle("Borce's Students' Averages");
+	setTitle("Students' Averages");
 	
 	//set the menuBar
 	fileMenu = new Menu("File");
