@@ -185,7 +185,7 @@ class StudentGradeCalc extends Frame
                 System.exit(1);
             }
 ///////////////////////////////////////////////////////////////////////////////////
-	//now calculate the weighted average for each student
+////////now calculate the weighted average for each student
 	for (int k =2; k<i; k++) {
 	double avEx=0, avWeighted=0, avHw=0;
 	int proj=0, finalExam=0;
