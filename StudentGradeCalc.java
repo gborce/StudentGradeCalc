@@ -143,8 +143,8 @@ class StudentGradeCalc extends Frame
 
     }
 /////////////////////////////////////////////////////////////////////////////////
-    //Calculates weighted averages of students' grades according to the 
-    //math given in the sylabus
+/////// Calculates weighted averages of students' grades according to the 
+/////// math given in the sylabus
     private void calculateAverages(String fileName) {
 	final int numStudents = 11;
 	final int numGrades = 5;
